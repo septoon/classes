@@ -1,6 +1,9 @@
-import {
-  Bowman, Swordsman, Magician, Daemon, Undead, Zombie,
-} from '../src/js/constructor';
+import Bowman from '../src/js/Bowman';
+import Swordsman from '../src/js/Swordsman';
+import Magician from '../src/js/Magician';
+import Daemon from '../src/js/Daemon';
+import Undead from '../src/js/Undead';
+import Zombie from '../src/js/Zombie';
 
 test('Bowman test', () => {
   const received = new Bowman('Лучник');
